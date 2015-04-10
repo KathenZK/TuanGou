@@ -240,10 +240,11 @@
 				TargetAttributes = {
 					049CD6C31AAFE41C007C4129 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = 6GWZ7H2DLB;
+						DevelopmentTeam = SX5TVB4MWV;
 					};
 					049CD6DC1AAFE41C007C4129 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = SX5TVB4MWV;
 						TestTargetID = 049CD6C31AAFE41C007C4129;
 					};
 				};
@@ -426,9 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TuanGou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -436,9 +440,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TuanGou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -495,6 +502,7 @@
 				049CD6E91AAFE41C007C4129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		049CD6EA1AAFE41C007C4129 /* Build configuration list for PBXNativeTarget "TuanGouTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +511,7 @@
 				049CD6EC1AAFE41C007C4129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
