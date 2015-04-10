@@ -12,7 +12,7 @@
 @interface TableViewCell : UITableViewCell
 
 //通过TableView创建cell
-+ (instancetype) cellWithTableView:(UITableView *)tableView;
++ (instancetype)cellWithTableView:(UITableView *)tableView;
 
 //团购模型
 @property (nonatomic, strong) TgModel *model;
